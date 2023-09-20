@@ -1,7 +1,6 @@
 package com.blog.be.user;
 
 import com.blog.be.user.dto.SignUpUserRequestDTO;
-import com.blog.be.user.dto.UserResponseDTO;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
